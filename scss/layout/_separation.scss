@@ -1,0 +1,160 @@
+@use '../abstracts' as a;
+
+
+// margins
+
+.m-xs-1 {margin: a.$xs-1;}
+.m-xs-2 {margin: a.$xs-2;}
+.m-xs-3 {margin: a.$xs-3;}
+.m-md-1 {margin: a.$md-1;}
+.m-md-2 {margin: a.$md-2;}
+.m-lg-1 {margin: a.$lg-1;}
+.m-lg-2 {margin: a.$lg-2;}
+.m-xl-1 {margin: a.$xl-1;}
+.m-xl-2 {margin: a.$xl-2;}
+.m-xl-3 {margin: a.$xl-3;}
+
+.mt-xs-1 {margin-top: a.$xs-1;}
+.mt-xs-2 {margin-top: a.$xs-2;}
+.mt-xs-3 {margin-top: a.$xs-3;}
+.mt-md-1 {margin-top: a.$md-1;}
+.mt-md-2 {margin-top: a.$md-2;}
+.mt-lg-1 {margin-top: a.$lg-1;}
+.mt-lg-2 {margin-top: a.$lg-2;}
+.mt-xl-1 {margin-top: a.$xl-1;}
+.mt-xl-2 {margin-top: a.$xl-2;}
+.mt-xl-3 {margin-top: a.$xl-3;}
+
+.ml-xs-1 {margin-left: a.$xs-1;}
+.ml-xs-2 {margin-left: a.$xs-2;}
+.ml-xs-3 {margin-left: a.$xs-3;}
+.ml-md-1 {margin-left: a.$md-1;}
+.ml-md-2 {margin-left: a.$md-2;}
+.ml-lg-1 {margin-left: a.$lg-1;}
+.ml-lg-2 {margin-left: a.$lg-2;}
+.ml-xl-1 {margin-left: a.$xl-1;}
+.ml-xl-2 {margin-left: a.$xl-2;}
+.ml-xl-3 {margin-left: a.$xl-3;}
+
+.mr-xs-1 {margin-right: a.$xs-1;}
+.mr-xs-2 {margin-right: a.$xs-2;}
+.mr-xs-3 {margin-right: a.$xs-3;}
+.mr-md-1 {margin-right: a.$md-1;}
+.mr-md-2 {margin-right: a.$md-2;}
+.mr-lg-1 {margin-right: a.$lg-1;}
+.mr-lg-2 {margin-right: a.$lg-2;}
+.mr-xl-1 {margin-right: a.$xl-1;}
+.mr-xl-2 {margin-right: a.$xl-2;}
+.mr-xl-3 {margin-right: a.$xl-3;}
+
+.mb-xs-1 {margin-bottom: a.$xs-1;}
+.mb-xs-2 {margin-bottom: a.$xs-2;}
+.mb-xs-3 {margin-bottom: a.$xs-3;}
+.mb-md-1 {margin-bottom: a.$md-1;}
+.mb-md-2 {margin-bottom: a.$md-2;}
+.mb-lg-1 {margin-bottom: a.$lg-1;}
+.mb-lg-2 {margin-bottom: a.$lg-2;}
+.mb-xl-1 {margin-bottom: a.$xl-1;}
+.mb-xl-2 {margin-bottom: a.$xl-2;}
+.mb-xl-3 {margin-bottom: a.$xl-3;}
+
+.mx-xs-1 {margin: 0 a.$xs-1;}
+.mx-xs-2 {margin: 0 a.$xs-2;}
+.mx-xs-3 {margin: 0 a.$xs-3;}
+.mx-md-1 {margin: 0 a.$md-1;}
+.mx-md-2 {margin: 0 a.$md-2;}
+.mx-lg-1 {margin: 0 a.$lg-1;}
+.mx-lg-2 {margin: 0 a.$lg-2;}
+.mx-xl-1 {margin: 0 a.$xl-1;}
+.mx-xl-2 {margin: 0 a.$xl-2;}
+.mx-xl-3 {margin: 0 a.$xl-3;}
+
+.my-xs-1 {margin: a.$xs-1 0;}
+.my-xs-2 {margin: a.$xs-2 0;}
+.my-xs-3 {margin: a.$xs-3 0;}
+.my-md-1 {margin: a.$md-1 0;}
+.my-md-2 {margin: a.$md-2 0;}
+.my-lg-1 {margin: a.$lg-1 0;}
+.my-lg-2 {margin: a.$lg-2 0;}
+.my-xl-1 {margin: a.$xl-1 0;}
+.my-xl-2 {margin: a.$xl-2 0;}
+.my-xl-3 {margin: a.$xl-3 0;}
+
+// Paddings
+
+.p-xs-1 {padding: a.$xs-1;}
+.p-xs-2 {padding: a.$xs-2;}
+.p-xs-3 {padding: a.$xs-3;}
+.p-md-1 {padding: a.$md-1;}
+.p-md-2 {padding: a.$md-2;}
+.p-lg-1 {padding: a.$lg-1;}
+.p-lg-2 {padding: a.$lg-2;}
+.p-xl-1 {padding: a.$xl-1;}
+.p-xl-2 {padding: a.$xl-2;}
+.p-xl-3 {padding: a.$xl-3;}
+
+.pt-xs-1 {padding-top: a.$xs-1;}
+.pt-xs-2 {padding-top: a.$xs-2;}
+.pt-xs-3 {padding-top: a.$xs-3;}
+.pt-md-1 {padding-top: a.$md-1;}
+.pt-md-2 {padding-top: a.$md-2;}
+.pt-lg-1 {padding-top: a.$lg-1;}
+.pt-lg-2 {padding-top: a.$lg-2;}
+.pt-xl-1 {padding-top: a.$xl-1;}
+.pt-xl-2 {padding-top: a.$xl-2;}
+.pt-xl-3 {padding-top: a.$xl-3;}
+
+.pl-xs-1 {padding-left: a.$xs-1;}
+.pl-xs-2 {padding-left: a.$xs-2;}
+.pl-xs-3 {padding-left: a.$xs-3;}
+.pl-md-1 {padding-left: a.$md-1;}
+.pl-md-2 {padding-left: a.$md-2;}
+.pl-lg-1 {padding-left: a.$lg-1;}
+.pl-lg-2 {padding-left: a.$lg-2;}
+.pl-xl-1 {padding-left: a.$xl-1;}
+.pl-xl-2 {padding-left: a.$xl-2;}
+.pl-xl-3 {padding-left: a.$xl-3;}
+
+.pr-xs-1 {padding-right: a.$xs-1;}
+.pr-xs-2 {padding-right: a.$xs-2;}
+.pr-xs-3 {padding-right: a.$xs-3;}
+.pr-md-1 {padding-right: a.$md-1;}
+.pr-md-2 {padding-right: a.$md-2;}
+.pr-lg-1 {padding-right: a.$lg-1;}
+.pr-lg-2 {padding-right: a.$lg-2;}
+.pr-xl-1 {padding-right: a.$xl-1;}
+.pr-xl-2 {padding-right: a.$xl-2;}
+.pr-xl-3 {padding-right: a.$xl-3;}
+
+.pb-xs-1 {padding-bottom: a.$xs-1;}
+.pb-xs-2 {padding-bottom: a.$xs-2;}
+.pb-xs-3 {padding-bottom: a.$xs-3;}
+.pb-md-1 {padding-bottom: a.$md-1;}
+.pb-md-2 {padding-bottom: a.$md-2;}
+.pb-lg-1 {padding-bottom: a.$lg-1;}
+.pb-lg-2 {padding-bottom: a.$lg-2;}
+.pb-xl-1 {padding-bottom: a.$xl-1;}
+.pb-xl-2 {padding-bottom: a.$xl-2;}
+.pb-xl-3 {padding-bottom: a.$xl-3;}
+
+.px-xs-1 {padding: 0 a.$xs-1;}
+.px-xs-2 {padding: 0 a.$xs-2;}
+.px-xs-3 {padding: 0 a.$xs-3;}
+.px-md-1 {padding: 0 a.$md-1;}
+.px-md-2 {padding: 0 a.$md-2;}
+.px-lg-1 {padding: 0 a.$lg-1;}
+.px-lg-2 {padding: 0 a.$lg-2;}
+.px-xl-1 {padding: 0 a.$xl-1;}
+.px-xl-2 {padding: 0 a.$xl-2;}
+.px-xl-3 {padding: 0 a.$xl-3;}
+
+.py-xs-1 {padding: a.$xs-1 0;}
+.py-xs-2 {padding: a.$xs-2 0;}
+.py-xs-3 {padding: a.$xs-3 0;}
+.py-md-1 {padding: a.$md-1 0;}
+.py-md-2 {padding: a.$md-2 0;}
+.py-lg-1 {padding: a.$lg-1 0;}
+.py-lg-2 {padding: a.$lg-2 0;}
+.py-xl-1 {padding: a.$xl-1 0;}
+.py-xl-2 {padding: a.$xl-2 0;}
+.py-xl-3 {padding: a.$xl-3 0;}
