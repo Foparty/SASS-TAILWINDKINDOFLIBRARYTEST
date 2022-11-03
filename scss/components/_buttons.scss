@@ -1,0 +1,5 @@
+@use '../abstracts' as a;
+.btn {
+  padding: .25rem .65rem;
+  background: a.$primary;
+}

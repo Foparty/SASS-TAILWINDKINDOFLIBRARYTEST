@@ -1,0 +1,6 @@
+@use "../abstracts" as a;
+
+.btn {
+  font-family: 'Roboto', sans-serif;
+  color: a.$primary;
+}
