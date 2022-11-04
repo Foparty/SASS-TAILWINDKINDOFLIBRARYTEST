@@ -1,6 +1,9 @@
 $primary: #000;
 $secondary: #fff;
 
+$black: #000;
+$white: #fff;
+
 
 $gray-0: #f8f9fa;
 $gray-1: #f1f3f5;
@@ -132,6 +135,12 @@ $orange-6: #fd7e14;
 $orange-7: #f76707;
 $orange-8: #e8590c;
 $orange-9: #d9480f;
+
+.black {color: $black;}
+.white {color: $white;}
+
+.bg-dark {background-color: $black;}
+.bg-light {background-color: $white;}
 
 .c-gray-0 {color: $gray-0;}
 .c-gray-1 {color: $gray-1;}

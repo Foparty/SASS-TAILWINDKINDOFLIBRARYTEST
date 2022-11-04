@@ -1,5 +1,55 @@
 @use "../abstracts" as a;
 
+$ff-primary: 'Roboto', sans-serif;
+
+.ff-primary { font-family: $ff-primary;}
+
+$upper: uppercase;
+.upper {text-transform: $upper;}
+$lower: lowercase;
+.lower {text-transform: $lower;}
+$capital: capitalize;
+.cap {text-transform: $capital;}
+
+$underline: underline;
+.under {text-decoration: $underline;}
+
+$ls-0: -.05em;
+$ls-1: .025em;
+$ls-2: .05em;
+$ls-3: .075em;
+$ls-4: .15em;
+$ls-5: .5em;
+$ls-6: .75em;
+$ls-7: 1em;
+
+.ls-0 {letter-spacing: $ls-0;}
+.ls-1 {letter-spacing: $ls-1;}
+.ls-2 {letter-spacing: $ls-2;}
+.ls-3 {letter-spacing: $ls-3;}
+.ls-4 {letter-spacing: $ls-4;}
+.ls-5 {letter-spacing: $ls-5;}
+.ls-6 {letter-spacing: $ls-6;}
+.ls-7 {letter-spacing: $ls-7;}
+
+$lh-0: .95;
+$lh-1: 1;
+$lh-2: 1.1;
+$lh-3: 1.25;
+$lh-4: 1.375;
+$lh-5: 1.5;
+$lh-6: 1.75;
+$lh-7: 2;
+
+.lh-0 {line-height: $lh-0;}
+.lh-1 {line-height: $lh-1;}
+.lh-2 {line-height: $lh-2;}
+.lh-3 {line-height: $lh-3;}
+.lh-4 {line-height: $lh-4;}
+.lh-5 {line-height: $lh-5;}
+.lh-6 {line-height: $lh-6;}
+.lh-7 {line-height: $lh-7;}
+
 $fw100: 100;
 $fw200: 200;
 $fw300: 300;
@@ -9,7 +59,7 @@ $fw600: 600;
 $fw700: 700;
 $fw800: 800;
 $fw900: 900;
-
+$fwbb: bold;
 
 .fw-100{font-weight: $fw100;}
 .fw-200{font-weight: $fw200;}
@@ -20,6 +70,7 @@ $fw900: 900;
 .fw-700{font-weight: $fw700;}
 .fw-800{font-weight: $fw800;}
 .fw-900{font-weight: $fw900;}
+.fwbb{font-weight: $fwbb;}
 
 $fz-f0: clamp(.75rem, 2vw, 1rem);
 $fz-f1: clamp(1rem, 4vw, 1.5rem);
@@ -30,3 +81,25 @@ $fz-f3: clamp(2rem, 9vw, 3.5rem);
 .fz-fluid-2 {font-size: $fz-f1;}
 .fz-fluid-3 {font-size: $fz-f2;}
 .fz-fluid-4 {font-size: $fz-f3;}
+
+$fz-xs-1: a.$xs-1;
+$fz-xs-2: a.$xs-2;
+$fz-xs-3: a.$xs-3;
+$fz-md-1: a.$md-1;
+$fz-md-2: a.$md-2;
+$fz-lg-1: a.$lg-1;
+$fz-lg-2: a.$lg-2;
+$fz-xl-1: a.$xl-1;
+$fz-xl-2: a.$xl-2;
+$fz-xl-3: a.$xl-3;
+
+.fz-xs-1 { font-size: $fz-xs-1;}
+.fz-xs-2 { font-size: $fz-xs-2;}
+.fz-xs-3 { font-size: $fz-xs-3;}
+.fz-md-1 { font-size: $fz-md-1;}
+.fz-md-1 { font-size: $fz-md-2;}
+.fz-lg-1 { font-size: $fz-lg-1;}
+.fz-lg-2 { font-size: $fz-lg-2;}
+.fz-xl-1 { font-size: $fz-xl-1;}
+.fz-xl-2 { font-size: $fz-xl-2;}
+.fz-xl-3 { font-size: $fz-xl-3;}

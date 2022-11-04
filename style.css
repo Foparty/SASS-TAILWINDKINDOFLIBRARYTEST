@@ -1,3 +1,19 @@
+.black {
+  color: #000;
+}
+
+.white {
+  color: #fff;
+}
+
+.bg-dark {
+  background-color: #000;
+}
+
+.bg-light {
+  background-color: #fff;
+}
+
 .c-gray-0 {
   color: #f8f9fa;
 }
@@ -1058,6 +1074,90 @@
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
 }
 
+.ff-primary {
+  font-family: "Roboto", sans-serif;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.lower {
+  text-transform: lowercase;
+}
+
+.cap {
+  text-transform: capitalize;
+}
+
+.under {
+  text-decoration: underline;
+}
+
+.ls-0 {
+  letter-spacing: -0.05em;
+}
+
+.ls-1 {
+  letter-spacing: 0.025em;
+}
+
+.ls-2 {
+  letter-spacing: 0.05em;
+}
+
+.ls-3 {
+  letter-spacing: 0.075em;
+}
+
+.ls-4 {
+  letter-spacing: 0.15em;
+}
+
+.ls-5 {
+  letter-spacing: 0.5em;
+}
+
+.ls-6 {
+  letter-spacing: 0.75em;
+}
+
+.ls-7 {
+  letter-spacing: 1em;
+}
+
+.lh-0 {
+  line-height: 0.95;
+}
+
+.lh-1 {
+  line-height: 1;
+}
+
+.lh-2 {
+  line-height: 1.1;
+}
+
+.lh-3 {
+  line-height: 1.25;
+}
+
+.lh-4 {
+  line-height: 1.375;
+}
+
+.lh-5 {
+  line-height: 1.5;
+}
+
+.lh-6 {
+  line-height: 1.75;
+}
+
+.lh-7 {
+  line-height: 2;
+}
+
 .fw-100 {
   font-weight: 100;
 }
@@ -1094,6 +1194,10 @@
   font-weight: 900;
 }
 
+.fwbb {
+  font-weight: bold;
+}
+
 .fz-fluid-1 {
   font-size: clamp(0.75rem, 2vw, 1rem);
 }
@@ -1108,6 +1212,46 @@
 
 .fz-fluid-4 {
   font-size: clamp(2rem, 9vw, 3.5rem);
+}
+
+.fz-xs-1 {
+  font-size: 0.5rem;
+}
+
+.fz-xs-2 {
+  font-size: 0.75rem;
+}
+
+.fz-xs-3 {
+  font-size: 1rem;
+}
+
+.fz-md-1 {
+  font-size: 1.1rem;
+}
+
+.fz-md-1 {
+  font-size: 1.125rem;
+}
+
+.fz-lg-1 {
+  font-size: 1.5rem;
+}
+
+.fz-lg-2 {
+  font-size: 2rem;
+}
+
+.fz-xl-1 {
+  font-size: 2.5rem;
+}
+
+.fz-xl-2 {
+  font-size: 3rem;
+}
+
+.fz-xl-3 {
+  font-size: 4rem;
 }
 
 /* Box sizing rules */
@@ -1743,11 +1887,54 @@ select {
   padding: 4rem 0;
 }
 
-.btn {
-  display: inline;
+.img-container {
+  background-image: url(../../img/photo-1.jpg);
+}
+
+.btn, .pill {
+  display: inline-block;
   text-align: center;
-  border-radius: 0.6rem;
-  padding: 0.25rem 1.5rem;
+}
+
+.btn-xs {
+  padding: 0.1rem 0.1rem;
+  border-radius: 0.2rem;
+}
+
+.btn-md {
+  padding: 0.25rem 0.25rem;
+  border-radius: 0.2rem;
+}
+
+.btn-lg {
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.btn-xl {
+  display: block;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.pill {
+  border-radius: 50rem;
+}
+
+.pill-xs {
+  padding: 0.2rem 0.3rem;
+}
+
+.pill-md {
+  padding: 0.2rem 0.5rem;
+}
+
+.pill-lg {
+  padding: 0.2rem 0.6rem;
+}
+
+.pill-xl {
+  padding: 0.2rem 0.8rem;
 }
 
 /*# sourceMappingURL=style.css.map */
