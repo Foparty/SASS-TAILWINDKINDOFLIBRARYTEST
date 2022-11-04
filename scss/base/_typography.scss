@@ -20,3 +20,13 @@ $fw900: 900;
 .fw-700{font-weight: $fw700;}
 .fw-800{font-weight: $fw800;}
 .fw-900{font-weight: $fw900;}
+
+$fz-f0: clamp(.75rem, 2vw, 1rem);
+$fz-f1: clamp(1rem, 4vw, 1.5rem);
+$fz-f2: clamp(1.5rem, 6vw, 2.5rem);
+$fz-f3: clamp(2rem, 9vw, 3.5rem);
+
+.fz-fluid-1 {font-size: $fz-f0;}
+.fz-fluid-2 {font-size: $fz-f1;}
+.fz-fluid-3 {font-size: $fz-f2;}
+.fz-fluid-4 {font-size: $fz-f3;}
