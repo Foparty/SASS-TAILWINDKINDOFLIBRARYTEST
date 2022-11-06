@@ -2,13 +2,13 @@
 @use '../layout' as l;
 @use '../components' as c;
 
-.hero .container-fluid {
-  height: a.$h30v;
+.container-fluid {
+  // height: a.$h30v;
   width: a.$w100v;
-  .col-6 {
-    height: inherit;
-    width: inherit;
-  }
+  // .col-6 {
+  //   height: inherit;
+  //   width: inherit;
+  // }
 }
 
 .img-container {
@@ -18,4 +18,14 @@
   background-image: url(img/photo-1.jpg);
   // background-position: center;
   // background-size: cover;
+}
+
+.social-nav {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+section {
+  border-bottom: 1px solid #e1e1e1;
 }
