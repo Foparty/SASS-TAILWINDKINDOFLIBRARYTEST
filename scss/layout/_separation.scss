@@ -1,6 +1,9 @@
 @use '../abstracts' as a;
 
 
+$mauto: 0 auto;
+.mauto {margin: $mauto;}
+
 // margins
 
 .m-xs-1 {margin: a.$xs-1;}

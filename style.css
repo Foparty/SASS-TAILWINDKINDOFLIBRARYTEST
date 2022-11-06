@@ -1094,6 +1094,10 @@
   text-decoration: underline;
 }
 
+.center {
+  text-align: center;
+}
+
 .ls-0 {
   letter-spacing: -0.05em;
 }
@@ -1327,6 +1331,10 @@ select {
     scroll-behavior: auto !important;
   }
 }
+.mauto {
+  margin: 0 auto;
+}
+
 .m-xs-1 {
   margin: 0.5rem;
 }
@@ -2059,10 +2067,6 @@ select {
   flex-direction: row;
 }
 
-.img-container {
-  background-image: url(../../img/photo-1.jpg);
-}
-
 .btn, .pill {
   display: inline-block;
   text-align: center;
@@ -2107,6 +2111,29 @@ select {
 
 .pill-xl {
   padding: 0.2rem 0.8rem;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.hero .container-fluid {
+  height: 30vh;
+  width: 100vw;
+}
+.hero .container-fluid .col-6 {
+  height: inherit;
+  width: inherit;
+}
+
+.img-container {
+  height: 30vh;
+  width: 100vw;
+  background-image: url(img/photo-1.jpg);
 }
 
 /*# sourceMappingURL=style.css.map */

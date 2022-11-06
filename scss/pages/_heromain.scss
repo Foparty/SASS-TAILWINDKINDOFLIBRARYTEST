@@ -1,5 +1,21 @@
 @use '../abstracts' as a;
+@use '../layout' as l;
+@use '../components' as c;
+
+.hero .container-fluid {
+  height: a.$h30v;
+  width: a.$w100v;
+  .col-6 {
+    height: inherit;
+    width: inherit;
+  }
+}
 
 .img-container {
-  background-image: url(../../img/photo-1.jpg);
+  height: a.$h30v;
+  width: a.$w100v;
+  
+  background-image: url(img/photo-1.jpg);
+  // background-position: center;
+  // background-size: cover;
 }

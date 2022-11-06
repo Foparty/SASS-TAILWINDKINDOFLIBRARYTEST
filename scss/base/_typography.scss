@@ -14,6 +14,9 @@ $capital: capitalize;
 $underline: underline;
 .under {text-decoration: $underline;}
 
+$center: center;
+.center {text-align: $center;}
+
 $ls-0: -.05em;
 $ls-1: .025em;
 $ls-2: .05em;
